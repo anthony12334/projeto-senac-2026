@@ -6,7 +6,7 @@ o objetido do projeto **Viajei** é, compartilhar das experiências que vivemos,
  >o **Viajei**, por razões apropriadas,
   é indicando para maiores de 14 (quartorze) anos.
   **não recomendamos** que pessoas com menor idade
-   do indicado, tenham acesso à plataforme.
+   do indicado, tenham acesso à plataforma.
 
 ## o que será?
 
