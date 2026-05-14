@@ -16,7 +16,7 @@ o viajei será uma plataforma em que os usuários poderão, indiviualmente, comp
 > 
 >  A plataforma **não** suporta múltiplos usuários.]
 >  isto não é uma rede social virtual.
->  papra compartilhar
+>  para compartilhar
 >  suas peripécias, por favor,
 >  compartilhe o link da sua história.
 
