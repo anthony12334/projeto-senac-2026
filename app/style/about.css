@@ -13,6 +13,8 @@ body {
     width: 80vw;
     margin: 0 auto;
     background-color: #ffffff;
+    
+
 }
 
 
@@ -25,11 +27,14 @@ header {
     align-items: center;
     background-color: rgb(255, 255, 255);
     align-items: center;
+    position: sticky;
+    
 }
 
 header img {
     max-height: 80px;
     margin: auto 0;
+    
 }
 
 .link-do-cabecalho{
@@ -41,6 +46,7 @@ header img {
     padding: 10px 20px;
     background-color: rgb(135, 167, 189);
     border-radius: 18px;
+    
 }
 
 .link-do-cabecalho:hover {
