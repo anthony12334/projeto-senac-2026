@@ -13,8 +13,6 @@ body {
     width: 80vw;
     margin: 0 auto;
     background-color: #ffffff;
-    
-
 }
 
 
@@ -26,7 +24,6 @@ header {
     justify-content: space-evenly;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    align-items: center;
     position: sticky;
     
 }
@@ -60,6 +57,16 @@ header img {
     background-color: rgb(255, 255, 255);
 }
 
+
+body div {
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
 
 @media(max-width: 600px) {
     /*Media query para ajustar o cabeçalho em aparelhos móveis */
@@ -128,6 +135,8 @@ header img {
         border-bottom: 2px solid rgb(135, 167, 189);   
     }
 }
+
+
 
 
 
