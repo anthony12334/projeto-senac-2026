@@ -85,7 +85,7 @@ header img {
     
     #container header .toggle {
         display: block;
-        border-right: 2px solid rgb(135, 167, 189,);
+        border-right: 2px solid rgb(135, 167, 189);
         border-bottom: 2px solid rgb(135, 167, 189);
         transform: rotateZ(45deg);
         cursor: pointer;
