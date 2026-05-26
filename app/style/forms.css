@@ -58,7 +58,10 @@ header img {
 }
 
 
-body div {
+
+
+
+/* body div {
     width: 30vw;
     height: 30vw;
     display: flex;
@@ -66,7 +69,7 @@ body div {
     justify-content: center;
     align-items: flex-start;
     
-}
+} */
 
 @media(max-width: 600px) {
     /*Media query para ajustar o cabeçalho em aparelhos móveis */

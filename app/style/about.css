@@ -13,10 +13,12 @@ body {
     width: 80vw;
     margin: 0 auto;
     background-color: #ffffff;
-    
+    background-image: url(../images/logo.pn);
+    background: size 30px;
+    background-position: right;
+    background-repeat: no-repeat;
 
 }
-
 
 
 header {
