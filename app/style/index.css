@@ -73,7 +73,8 @@ header img {
 
 p {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 35px;
+    font-size: 20px;
+    
 }
 
 @media (max-width: 600px)  /*Media query para ajustar o cabeçalho em aparelhos móveis */{
@@ -127,8 +128,12 @@ p {
         border-top: 1px solid rgb(135, 167, 189);
         padding-left: 40px;
         
-        
     }
+
+    #container section p{
+        background-color: rgba(135, 167, 189, 0.788);
+    }
+    
     #container header.active a:nth-of-type(1) {
         bottom: 100px;
     }
@@ -141,4 +146,6 @@ p {
         bottom: 220px;
         border-bottom: 2px solid rgb(135, 167, 189);   
     }
+;
+    
 }
