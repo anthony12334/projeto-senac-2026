@@ -1,4 +1,4 @@
-from tamagotchi import BichinhoVirtual
+from bichinhovirtual import BichinhoVirtual
 
 if __name__ == '__main__':
 

@@ -1,4 +1,5 @@
 from carrinho import CarrinhoDeCompras
+
 if__name__ == "__main__"
 meu_carrinho = CarrinhoDeCompras()
 
