@@ -1,0 +1,2 @@
+from mediasalunos import calcular_medias_alunos
+
