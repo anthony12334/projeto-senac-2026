@@ -11,5 +11,10 @@ def buscar_palavra_no_texto(palavra_alvo):
             encontrou = False
 
             for indice, conteudo in enumerate(linhas, start=1):
-                if palavra_alvo.() in conteudo.
+                if palavra_alvo.lower() in conteudo.lower():
+                    print(f"linha {indice}: {conteudo.strip()}")
+                    
+    except FileExistsError:
+        print("erro: arquivo 'documento.txt' não foi encontrado")
+                        
     

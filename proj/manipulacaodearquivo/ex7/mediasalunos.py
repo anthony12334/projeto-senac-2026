@@ -20,7 +20,7 @@ def calcular_medias_alunos():
 
             if __name__ == '__main__':
 
-                calcular_medias_alunos(ana)
+                calcular_medias_alunos()
 
         
         
