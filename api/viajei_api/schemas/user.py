@@ -6,5 +6,14 @@ class User(BaseModel):
     password: str
 
 
+class UserPublic(BaseModel):
+    id: int
+    email: EmailStr
+
+
 class UserDB(User):
-    id = int
+    id: int
+
+
+class UserList(BaseModel):
+    users: list[UserPublic]
