@@ -80,6 +80,27 @@ footer{
 
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+
+form input#email{
+    width: 400px;
+
+
+
+}
+
+
+
+
 form button {
     width: 25%;
     font-family: 'Georgia', serif;
@@ -90,7 +111,7 @@ form button {
     border: none;
     outline: none;
     border-radius: 3px;
-    align-self: end;
+    align-self: center
 
 }
 
