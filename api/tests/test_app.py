@@ -17,16 +17,16 @@ def test_root_deve_retornar_ok_e_ola_mundo(client: TestClient):
 def test_create_user(client: TestClient):
 
     response = client.post(
-        '/auth/',
+        '/users/',
         json={
-            'email': 'alice@example.com',
-            'password': 'secret',
+            'email': 'joao@test.test',
+            'password': 'senha123',
         },
     )
 
     assert response.status_code == HTTPStatus.CREATED
     assert response.json() == {
-        'email': 'alice@example.com',
+        'email': 'joao@test.test',
         'id': 1,
     }
 
@@ -37,10 +37,20 @@ def test_read_users(client: TestClient):
     assert response.json() == {
         'users': [
             {
-                'email': 'alice@example.com',
+                'email': 'joao@test.test',
                 'id': 1,
             }
         ]
+    }
+
+
+def test_ver_user_200(client):
+    response = client.get('/users/1')
+
+    assert response.status_code == HTTPStatus.OK
+    assert response.json() == {
+        'email': 'joao@test.test',
+        'id': 1,
     }
 
 
@@ -50,3 +60,17 @@ def test_delete_user(client):
 
     response.status_code == HTTPStatus.OK
     response.json() == {'menssage': 'user deleted'}
+
+
+def test_ver_user_erro404(client):
+    response = client.get('/users/666')
+
+    assert response.status_code == HTTPStatus.NOT_FOUND
+    assert response.json() == {'detail': 'Usuário não existe'}
+
+
+def delete_user_404(client):
+    response = client.delete('/users/666')
+
+    assert response.status_code == HTTPStatus.NOT_FOUND
+    assert response.json() == {'detail': 'Usuário não encontrado'}
